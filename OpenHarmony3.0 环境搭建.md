@@ -32,7 +32,7 @@
 
 ![5](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/5.jpeg)
 
-6.然后下一步，点击安装，等待等待安装完成。
+6.然后下一步，点击安装，等待安装完成。
 
 ![6](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/6.png)
 
