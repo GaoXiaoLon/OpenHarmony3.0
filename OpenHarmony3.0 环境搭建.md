@@ -192,6 +192,7 @@ pip install -i https://mirrors.ustc.edu.cn/pypi/web/simple pip -U
 pip config set global.index-url https://mirrors.ustc.edu.cn/pypi/web/simple
 ```
 ![36](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/36.png)
+![37](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/37.png)
 
 安装环境所需要的库：
 ```
@@ -264,4 +265,109 @@ Copyright (c) 2001 - 2021 The SCons Foundation
 pip3 install pycryptodome
 pip3 install six --upgrade --ignore-installed six
 pip3 install ecdsa
+```
+
+![38](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/38.png)
+
+### 下载GCC
+```
+wget https://repo.huaweicloud.com/harmonyos/compiler/gcc_riscv32/7.3.0/linux/gcc_riscv32-linux-7.3.0.tar.gz
+```
+```
+tar -xvf gcc_riscv32-linux-7.3.0.tar.gz -C ~
+```
+配置环境变量
+```
+vim ~/.bashrc
+```
+在最后一行插入
+```
+export PATH=~/gcc_riscv32/bin:$PATH
+```
+退出，输入如下命令进行保存
+```
+source ~/.bashrc
+```
+检查GCC是否安装成功
+
+```
+riscv32-unknown-elf-gcc -v
+```
+
+![39](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/39.png)
+
+### Git设置
+
+```
+git config --global user.name "yourname"
+git config --global user.email "your-email-address"   
+// 设置记住密码
+git config --global credential.helper sto
+```
+ ![39](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/39.png)
+### 下载repo工具链
+```
+sudo apt install curl
+```
+```
+curl -s https://gitee.com/oschina/repo/raw/fork_flow/repo-py3>repo
+```
+```
+sudo mv repo /usr/local/bin/repo
+```
+```
+sudo chmod a+x /usr/local/bin/repo
+```
+
+## OpenHarmony环境搭建
+
+**简介**
+openharmony编译环境搭建是一件费事的工作。官网为此提供了docker镜像版本将需要的软件及其依赖打包到镜像中。但此镜像不支持qemu的编译，本文档提供的新镜像不仅解决了编译qemu产品的问题，还提供了qemu的运行环境。并将此环境托管到云上，极大的方便了设备开发者特别是学生的入门。
+
+下面是详细的步骤（以下操作都是在虚拟机中）。
+### 下载源码
+
+1、确保码云(gitee)账号已注册， 登录云主机并生成/添加SSH公钥，方式如下
+
+ 在终端输入如下命令生成公钥
+```
+ ssh-keygen -t ed25519 -C "xxxxx@xxxxx.com"
+```
+ 这里的 xxxxx@xxxxx.com 只是生成的 sshkey 的名称，并不约束或要求具体命名为某个邮箱。现网的大部分教程均讲解的使用邮箱生成，其一开始的初衷仅仅是为了便于辨识所以使用了邮箱。
+ 
+![41](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/41.png)
+ 
+2、通过查看 ~/.ssh/id_ed25519.pub 文件内容，获取到你的 public key
+ 
+```
+ cat ~/.ssh/id_ed25519.pub
+# ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHkfXk5QqyW3Hm34ahcRTbdvJIrpmWdgHNEfXImNV1bX xxxxx@xxxxx.com
+```
+ 
+![40](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/40.png)
+  
+3.复制生成后的 ssh key，添加到gitee中个人设置->安全设置->SSH公钥
+ 
+![42](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/42.png)
+  
+![43](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/43.png)
+
+确定之后可以看到公钥添加成功
+ 
+![44](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/44.png)
+ 
+4.在终端运行如下3个命令下载源码（时间会比较长，耐心等待）
+```
+repo init -u git@gitee.com:openharmony/manifest.git -b master  
+repo sync -c
+repo forall -c 'git lfs pull'
+```
+
+### 编译源码
+
+1.配置产品
+
+在终端输入
+```
+hb set
 ```
