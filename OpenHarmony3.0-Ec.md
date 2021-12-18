@@ -402,7 +402,14 @@ hb env
 ```
 hb build
 ```
-
+如果报错
+```
+ccache: error: Could not find compiler "arm-none-eabi-gcc" in PATH
+```
+执行如下命令即可
+```
+sudo apt-get install gcc-arm-none-eabi
+```
 ![48](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/48.png)
 
 至此编译成功
