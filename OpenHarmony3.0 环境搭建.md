@@ -197,16 +197,71 @@ pip config set global.index-url https://mirrors.ustc.edu.cn/pypi/web/simple
 ```
 sudo apt-get install build-essential gcc g++ make zlib* libffi-dev e2fsprogs pkg-config flex bison perl bc openssl libssl-dev libelf-dev libc6-dev binutils binutils-dev libdwarf-dev u-boot-tools mtd-utils gcc-arm-linux-gnueabi cpio device-tree-compiler git git-lfs ruby ccache
 ```
-4.hb的安装
+### hb的安装
 
 安装方法：
 
-  ①运行以下命令安装hb
+1.运行以下命令安装hb
 ```
   python3 -m pip install --user ohos-build
 ```
-  ②配置环境变量（先执行：sudo apt install vim 安装vim）
+2.配置环境变量（先执行：sudo apt install vim 安装vim）
 ```
 vim ~/.bashrc
 ```
+将以下命令拷贝到./bashrc文件最后一行（输入：i表示插入）
+```
+export PATH=~/.local/bin:$PATH
+```
+然后按Esc，输入：
+```
+:wq
+```
+回车退出
+执行如下命令更显环境变量
+```
+source ~/.bashrc
+```
+执行**hb -h**
+显示如下信息表示成功
+```
+usage: hb [-h] [-v] {build,set,env,clean,deps} ...
 
+OHOS Build System version 0.4.3
+
+positional arguments:
+  {build,set,env,clean,deps}
+    build               Build source code
+    set                 OHOS build settings
+    env                 Show OHOS build env
+    clean               Clean output
+    deps                OHOS components deps
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -v, --version         show program's version number and exit
+```
+
+### SCons的安装
+
+1.运行如下命令安装SCons
+```
+pip3 install scons
+```
+2.运行如下命令检查是否安装成功
+```
+scons -v
+```
+SCons安装成功界面，版本要求为3.0.4以上
+```
+SCons by Steven Knight et al.:
+	SCons: v4.3.0.559790274f66fa55251f5754de34820a29c7327a, Tue, 16 Nov 2021 19:09:21 +0000, by bdeegan on octodog
+	SCons path: ['/home/magic/.local/lib/python3.8/site-packages/SCons']
+Copyright (c) 2001 - 2021 The SCons Foundation
+```
+### Python库安装
+```
+pip3 install pycryptodome
+pip3 install six --upgrade --ignore-installed six
+pip3 install ecdsa
+```
