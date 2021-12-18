@@ -36,3 +36,12 @@
 
 ![6](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/6.png)
 
+### 下载Ubuntn-20.04镜像
+
+点击链接下载：[VMware Workstation Player](https://ubuntu.com/download/desktop)
+
+![8](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/8.png)
+
+## 创建一台新的虚拟机
+
+![7](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/7.png)
