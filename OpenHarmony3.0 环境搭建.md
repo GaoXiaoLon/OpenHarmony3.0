@@ -178,6 +178,7 @@ ls –l /bin/sh
 输入python 将会显示python3.8
 
 *注：输入：exit()即可退出Python*
+
 ![35](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/35.png)
 
 3.安装pip3并换源
