@@ -45,3 +45,35 @@
 ## 创建一台新的虚拟机
 
 ![7](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/7.png)
+
+1.选择：典型（推荐），然后点击下一步
+
+![9](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/9.png)
+
+2.选择稍后暗转操作系统，然后点击下一步
+
+![10](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/10.png)
+
+3.客户端操作系统选择Linux，版本选择Ubuntu 64位，然后点击下一步
+
+![11](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/3.jpg)
+
+4.命名虚拟机，并选择存储位置（建议存放在C盘以外的磁盘中），然后点击下一步
+
+![12](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/12.png)
+
+5.选择虚拟机最大磁盘大小（根据所需设置），建议存放在一个文件里，便于磁盘扩展，然后点击下一步
+
+![13](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/13.png)
+
+6.点击自定义硬件，进行配置虚拟机
+
+![14](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/14.png)
+
+7.修改虚拟机内存，一般根据主机内存来设置，为主机内存的一半为最好（我电脑内存为16G，这里只选择了4G），然后点击处理器
+
+![15](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/15.png)
+
+8.配置虚拟机处理器，根据所需配置，然后点击：新CD/DVD（SATA）
+
+![16](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/16.png)
