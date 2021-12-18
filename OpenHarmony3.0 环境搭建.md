@@ -77,3 +77,35 @@
 8.配置虚拟机处理器，根据所需配置，然后点击：新CD/DVD（SATA）
 
 ![16](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/16.png)
+
+9.选择使用ISO文件镜像，然后点击下方关闭
+
+![17](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/17.png)
+
+## 启动虚拟机
+
+### 开始安装
+
+1.在左边滑动找到下边的中文简体，然后点击右边的：安装Ubuntu
+
+![18](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/18.png)
+
+2.选择键盘布局，选择Chinese（默认就行），点击继续
+
+![19](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/19.png)
+
+3.根据所需，点击继续
+
+![20](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/21.png)
+
+4.选择地区，找到上海然后点击继续
+
+![21](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/21.png)
+
+5.配置用户名和管理员密码，然后点击继续
+
+![22](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/22.png)
+
+6.等待安装完成重启虚拟机就行
+
+![23](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/23.png)
