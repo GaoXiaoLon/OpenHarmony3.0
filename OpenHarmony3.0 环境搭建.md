@@ -96,7 +96,7 @@
 
 3.根据所需，点击继续
 
-![20](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/21.png)
+![20](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/20.png)
 
 4.选择地区，找到上海然后点击继续
 
@@ -109,3 +109,77 @@
 6.等待安装完成重启虚拟机就行
 
 ![23](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/23.png)
+
+7.重启之后，一直点击跳过就行
+
+![24](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/24.png)
+
+![25](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/25.png)
+
+*注：这边安装的时候可能看不见下方的选项，按Tab键，当选择方框看不见的时候为第一次，之后再按两次Tab键即可选择到继续按钮，回车即可（如果你用的是VMware的话可以安装vmware tools全屏就好）*
+
+### 虚拟机换源
+
+Ubuntu服务器在国外，在更新软件或者下载软件时网速很慢，所以我们将Ubuntu的源换到国内的站点，比如清华源、中科大原。20-04系统换源界面改成了图形化，比较方便。
+
+#### 方法一（图形化）：
+
+1.找到/etc/apt/sources.list ,双击打开
+
+![26](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/26.png)
+
+2.点击其他站点，然后选择需要更换的国内站点，我这边选择的是清华源，然后点击：选择服务器
+
+![27](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/27.png)
+
+![28](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/28.png)
+
+3.然后关闭这个界面，会弹出一个窗口提示：可用的软件列表已过时，点击：重新载入，然后输入密码即可
+
+![29](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/29.png)
+
+4.按快捷键：Ctrl+Alt+T打开终端，输入命令：**sudo apt update && sudo apt upgrade**,然后回车，输入密码，回车，会提示是否同意：输入y即可
+
+![30](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/30.png)
+
+5.切换sh，从dash 改成bash，因为编译工具链有一部分需要bash
+
+![31](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/31.png)
+
+选择No，然后回车
+
+![32](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/32.png)
+
+输入 ls –l /bin/sh  回车，查看切换是否成功
+
+![33](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/33.png)
+
+6.软连接Python3，输入：sudo ln -s /usr/bin/python3 /usr/bin/python 回车即可
+输入python 将会显示python3.8
+
+*注：输入：exit()即可推出Python*
+![35](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/35.png)
+
+7.安装pip3并换源
+
+sudo apt install python3-pip
+
+pip install -i https://mirrors.ustc.edu.cn/pypi/web/simple pip -U
+
+pip config set global.index-url https://mirrors.ustc.edu.cn/pypi/web/simple
+
+![36](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/36.png)
+
+安装环境所需要的库：
+
+sudo apt-get install build-essential gcc g++ make zlib* libffi-dev e2fsprogs pkg-config flex bison perl bc openssl libssl-dev libelf-dev libc6-dev binutils binutils-dev libdwarf-dev u-boot-tools mtd-utils gcc-arm-linux-gnueabi cpio device-tree-compiler git git-lfs ruby ccache
+
+8.hb的安装
+
+安装方法：
+
+  ①运行以下命令安装hb
+'''
+  python3 -m pip install --user ohos-build
+'''
+
