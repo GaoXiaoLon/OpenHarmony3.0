@@ -356,12 +356,18 @@ openharmony编译环境搭建是一件费事的工作。官网为此提供了doc
  
 ![44](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/44.png)
  
-4.在终端运行如下3个命令下载源码（时间会比较长，耐心等待）
+4.在终端运行如下3个命令下载源码（时间会比较长，耐心等待），建议在home文件夹下再新建一个openharmony文件夹之后，在终端中打开之后再执行如下命令
 ```
 repo init -u git@gitee.com:openharmony/manifest.git -b master  
 repo sync -c
 repo forall -c 'git lfs pull'
 ```
+如果出现供应商无效，请执行以下命令之后，再执行上面三个命令
+```
+sudo apt install git-lfs
+```
+*注：如果觉得repo过于麻烦，可以根据自己所需对工程文件进行裁剪*
+可以参考这个文章把OpenHarmony的repo简化一下，拉取方便，存储少一些：[repo](https://gitee.com/Cruise2019/team_x/blob/master/homework/repo/readme.md)
 
 ### 编译源码
 
@@ -371,3 +377,47 @@ repo forall -c 'git lfs pull'
 ```
 hb set
 ```
+
+![45](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/45.png)
+
+回车
+
+使用上下键选择产品
+
+如：qemu_mini_system_demo
+
+![46](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/46.png)
+
+回车
+
+通过命令hb env查看刚刚设置的产品
+```
+hb env
+```
+![47](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/47.png)
+
+2.编译
+
+在终端输入hb build命令进行编译
+```
+hb build
+```
+
+![48](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/48.png)
+
+至此编译成功
+
+### 运行
+
+在终端输入./qemu-run命令，运行
+```
+./qemu-run
+```
+
+![49](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/49.png)
+
+![50](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/50.png)
+
+至此进入qemu_mini_system_demo，可以在终端输入help查看当前系统支持的命令
+
+![51](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/51.png)
