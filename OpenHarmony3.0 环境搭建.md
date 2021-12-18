@@ -1,4 +1,4 @@
-# OpenHarmony3.0 环境搭建
+# OpenHarmony3.0 Environment construction
 
 ## 安装虚拟机(以Ubuntu为例)
 
