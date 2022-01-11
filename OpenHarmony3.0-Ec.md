@@ -304,7 +304,7 @@ git config --global user.email "your-email-address"
 // 设置记住密码
 git config --global credential.helper sto
 ```
- ![39](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/39.png)
+
 ### 下载repo工具链
 ```
 sudo apt install curl
@@ -382,6 +382,11 @@ hb set
 
 回车
 
+如果出现未让输入编译路径，执行
+```
+hb set -root [正确路径]
+```
+
 使用上下键选择产品
 
 如：qemu_mini_system_demo
@@ -402,6 +407,7 @@ hb env
 ```
 hb build
 ```
+
 如果报错
 ```
 ccache: error: Could not find compiler "arm-none-eabi-gcc" in PATH
