@@ -8,79 +8,79 @@
 
 点击链接下载：[VMware Workstation Player](https://customerconnect.vmware.com/en/downloads/info/slug/desktop_end_user_computing/vmware_workstation_player/16_0)
 
-![0](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image0.jpg)
+![0](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/0.jpg)
 
 **安装VMware Workstation Player**
 
 1.点击下一步
 
-![1](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image1.png)
+![1](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/1.png)
 
 2.选择我接受许可协议中的条款，然后点击下一步
 
-![2](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image2.png)
+![2](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/2.png)
 
 3.选择安装，然后点击下一步
 
-![3](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image3.jpg)
+![3](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/3.jpg)
 
 4.更改安装位置，建议安装到D盘，点击下一步（一定要勾选将控制台工具添加到PATH）
 
-![4](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image4.jpeg)
+![4](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/4.jpeg)
 
 5.关闭启动时检查更新和加入体验计划，然后下一步
 
-![5](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image5.jpeg)
+![5](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/5.jpeg)
 
 6.然后下一步，点击安装，等待安装完成。
 
-![6](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image6.png)
+![6](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/6.png)
 
 ### 下载Ubuntn-20.04镜像
 
 点击链接下载：[VMware Workstation Player](https://ubuntu.com/download/desktop)
 
-![8](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image8.png)
+![8](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/8.png)
 
 ## 创建一台新的虚拟机
 
-![7](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image7.png)
+![7](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/7.png)
 
 1.选择：典型（推荐），然后点击下一步
 
-![9](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image9.png)
+![9](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/9.png)
 
 2.选择稍后暗转操作系统，然后点击下一步
 
-![10](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image10.png)
+![10](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/10.png)
 
 3.客户端操作系统选择Linux，版本选择Ubuntu 64位，然后点击下一步
 
-![11](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image3.jpg)
+![11](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/3.jpg)
 
 4.命名虚拟机，并选择存储位置（建议存放在C盘以外的磁盘中），然后点击下一步
 
-![12](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image12.png)
+![12](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/12.png)
 
 5.选择虚拟机最大磁盘大小（根据所需设置），建议存放在一个文件里，便于磁盘扩展，然后点击下一步
 
-![13](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image13.png)
+![13](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/13.png)
 
 6.点击自定义硬件，进行配置虚拟机
 
-![14](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image14.png)
+![14](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/14.png)
 
 7.修改虚拟机内存，一般根据主机内存来设置，为主机内存的一半为最好（我电脑内存为16G，这里只选择了4G），然后点击处理器
 
-![15](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image15.png)
+![15](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/15.png)
 
 8.配置虚拟机处理器，根据所需配置，然后点击：新CD/DVD（SATA）
 
-![16](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image16.png)
+![16](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/16.png)
 
 9.选择使用ISO文件镜像，然后点击下方关闭
 
-![17](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image17.png)
+![17](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/17.png)
 
 ## 启动虚拟机
 
@@ -88,33 +88,33 @@
 
 1.在左边滑动找到下边的中文简体，然后点击右边的：安装Ubuntu
 
-![18](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image18.png)
+![18](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/18.png)
 
 2.选择键盘布局，选择Chinese（默认就行），点击继续
 
-![19](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image19.png)
+![19](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/19.png)
 
 3.根据所需，点击继续
 
-![20](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image20.png)
+![20](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/20.png)
 
 4.选择地区，找到上海然后点击继续
 
-![21](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image21.png)
+![21](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/21.png)
 
 5.配置用户名和管理员密码，然后点击继续
 
-![22](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image22.png)
+![22](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/22.png)
 
 6.等待安装完成重启虚拟机就行
 
-![23](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image23.png)
+![23](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/23.png)
 
 7.重启之后，一直点击跳过就行
 
-![24](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image24.png)
+![24](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/24.png)
 
-![25](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image25.png)
+![25](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/25.png)
 
 *注：这边安装的时候可能看不见下方的选项，按Tab键，当选择方框看不见的时候为第一次，之后再按两次Tab键即可选择到继续按钮，回车即可（如果你用的是VMware的话可以安装vmware tools全屏就好）*
 
@@ -126,17 +126,17 @@ Ubuntu服务器在国外，在更新软件或者下载软件时网速很慢，�
 
 1.找到/etc/apt/sources.list ,双击打开
 
-![26](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image26.png)
+![26](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/26.png)
 
 2.点击其他站点，然后选择需要更换的国内站点，我这边选择的是清华源，然后点击：选择服务器
 
-![27](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image27.png)
+![27](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/27.png)
 
-![28](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image28.png)
+![28](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/28.png)
 
 3.然后关闭这个界面，会弹出一个窗口提示：可用的软件列表已过时，点击：重新载入，然后输入密码即可
 
-![29](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image29.png)
+![29](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/29.png)
 
 4.按快捷键：Ctrl+Alt+T打开终端，输入命令：
 ```
@@ -148,7 +148,7 @@ sudo apt update && sudo apt upgrade
 
 教程链接：[Ubuntu更换国内源](https://blog.csdn.net/qq_35451572/article/details/79516563)
 
-![30](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image30.png)
+![30](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/30.png)
 
 ## Ubuntu20.04配置
 
@@ -158,11 +158,11 @@ sudo apt update && sudo apt upgrade
 sudo dpkg-reconfigure dash
 ```
 
-![31](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image31.png)
+![31](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/31.png)
 
 选择No，然后回车
 
-![32](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image32.png)
+![32](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/32.png)
 
 输入 
 ```
@@ -170,7 +170,7 @@ ls –l /bin/sh
 ```
 回车，查看切换是否成功
 
-![33](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image33.png)
+![33](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/33.png)
 
 2.软连接Python3，输入：
 ```sudo ln -s /usr/bin/python3 /usr/bin/python``` 
@@ -179,7 +179,7 @@ ls –l /bin/sh
 
 *注：输入：exit()即可退出Python*
 
-![35](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image35.png)
+![35](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/35.png)
 
 3.安装pip3并换源
 ```
@@ -191,8 +191,8 @@ pip install -i https://mirrors.ustc.edu.cn/pypi/web/simple pip -U
 ```
 pip config set global.index-url https://mirrors.ustc.edu.cn/pypi/web/simple
 ```
-![36](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image36.png)
-![37](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image37.png)
+![36](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/36.png)
+![37](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/37.png)
 
 安装环境所需要的库：
 ```
@@ -267,7 +267,7 @@ pip3 install six --upgrade --ignore-installed six
 pip3 install ecdsa
 ```
 
-![38](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image38.png)
+![38](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/38.png)
 
 ### 下载GCC
 ```
@@ -294,7 +294,7 @@ source ~/.bashrc
 riscv32-unknown-elf-gcc -v
 ```
 
-![39](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image39.png)
+![39](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/39.png)
 
 ### Git设置
 
@@ -335,7 +335,7 @@ openharmony编译环境搭建是一件费事的工作。官网为此提供了doc
 ```
  这里的 xxxxx@xxxxx.com 只是生成的 sshkey 的名称，并不约束或要求具体命名为某个邮箱。现网的大部分教程均讲解的使用邮箱生成，其一开始的初衷仅仅是为了便于辨识所以使用了邮箱。
 
-![41](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image41.png)
+![41](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/41.png)
 
 2、通过查看 ~/.ssh/id_ed25519.pub 文件内容，获取到你的 public key
 
@@ -344,17 +344,17 @@ openharmony编译环境搭建是一件费事的工作。官网为此提供了doc
 # ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHkfXk5QqyW3Hm34ahcRTbdvJIrpmWdgHNEfXImNV1bX xxxxx@xxxxx.com
 ```
 
-![40](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image40.png)
+![40](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/40.png)
 
 3.复制生成后的 ssh key，添加到gitee中个人设置->安全设置->SSH公钥
 
-![42](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image42.png)
+![42](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/42.png)
 
-![43](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image43.png)
+![43](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/43.png)
 
 确定之后可以看到公钥添加成功
 
-![44](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image44.png)
+![44](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/44.png)
 
 4.在终端运行如下3个命令下载源码（时间会比较长，耐心等待），建议在home文件夹下再新建一个openharmony文件夹之后，在终端中打开之后再执行如下命令
 ```
@@ -367,7 +367,7 @@ repo forall -c 'git lfs pull'
 sudo apt install git-lfs
 ```
 *注：如果觉得repo过于麻烦，可以根据自己所需对工程文件进行裁剪*
-可以参考这个文章把OpenHarmony的repo简化一下，拉取方便，存储少一些：[repo](https://gitee.com/Cruise2019/team_x/blob/master/image/imagehomework/repo/readme.md)
+可以参考这个文章把OpenHarmony的repo简化一下，拉取方便，存储少一些：[repo](https://gitee.com/Cruise2019/team_x/blob/master/image/image/homework/repo/readme.md)
 
 ### 编译源码
 
@@ -378,7 +378,7 @@ sudo apt install git-lfs
 hb set
 ```
 
-![45](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image45.png)
+![45](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/45.png)
 
 回车
 
@@ -391,7 +391,7 @@ hb set -root [正确路径]
 
 如：qemu_mini_system_demo
 
-![46](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image46.png)
+![46](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/46.png)
 
 回车
 
@@ -399,7 +399,7 @@ hb set -root [正确路径]
 ```
 hb env
 ```
-![47](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image47.png)
+![47](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/47.png)
 
 2.编译
 
@@ -416,7 +416,7 @@ ccache: error: Could not find compiler "arm-none-eabi-gcc" in PATH
 ```
 sudo apt-get install gcc-arm-none-eabi
 ```
-![48](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image48.png)
+![48](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/48.png)
 
 至此编译成功
 
@@ -427,10 +427,10 @@ sudo apt-get install gcc-arm-none-eabi
 ./qemu-run
 ```
 
-![49](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image49.png)
+![49](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/49.png)
 
-![50](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image50.png)
+![50](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/50.png)
 
 至此进入qemu_mini_system_demo，可以在终端输入help查看当前系统支持的命令
 
-![51](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image51.png)
+![51](https://github.com/MagicGaoxiaolong/OpenHarmony3.0/blob/master/image/image/51.png)
